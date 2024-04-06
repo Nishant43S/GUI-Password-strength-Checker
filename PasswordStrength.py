@@ -3,7 +3,7 @@ import ttkbootstrap as ttkb
 import tkinter.messagebox as tmsg
 from ttkbootstrap.constants import *
 
-if __name__=="__main__":
+if __name__=="__main__":          ##############  main app function
     def check_password_strength():
         password = Password_Entry.get()
 
